@@ -77,7 +77,7 @@ const ProjectCard: React.FC<Project> = ({
     </Link>
     <div className="flex flex-col justify-between space-y-4 py-4 px-8">
       <div className="space-y-4">
-        <div className="flex items-center flex-col md:flex-row gap-1 justify-between">
+        <div className="flex items-start md:items-center flex-col md:flex-row gap-1 justify-between">
           <h1 className="text-2xl font-semibold tracking-tight flex items-center gap-1">
             {title} {isPersonalPortfolio && <Badge>v.1</Badge>}
           </h1>

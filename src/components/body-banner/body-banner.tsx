@@ -19,7 +19,7 @@ const BodyBanner = () => {
           Don&apos;t put your creativity on hold and let&apos;s build a
           professional web experience which will put you above your competitors.
         </p>
-        <Link href="#" className="flex">
+        <Link href="/about/Contacts" className="flex">
           <Button variant="secondary" className="w-full md:w-fit flex items-center gap-1">
             Contact
             <ArrowRight width={18} height={18} />

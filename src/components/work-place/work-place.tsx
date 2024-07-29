@@ -3,7 +3,7 @@ import React from "react";
 
 const WorkPlace = () => {
   return (
-    <div className="space-y-8 border-y py-8 my-28">
+    <div className="space-y-8 border-y py-8 my-8 md:my-28">
       <h2 className="text-muted-foreground text-xs">Proud to be known by & worked at:</h2>
       <div className="grid grid-cols-4 place-items-center">
         <div>

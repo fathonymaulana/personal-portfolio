@@ -17,7 +17,7 @@ const CurriculumVitae = () => {
       </div>
 
       <div className="my-8 p-8 flex items-center justify-start rounded-lg border-2 border-muted text-left ">
-        <p className="text-sm text-muted-foreground">
+        <p className="text-xs text-muted-foreground">
           <span className="font-semibold text-foreground">Note:</span> You can{" "}
           <Badge
             variant="secondary"

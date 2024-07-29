@@ -9,7 +9,7 @@ const AboutSection = () => {
   return (
     <>
       <div id="about" className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <div className="flex flex-col justify-between">
+        <div className="flex flex-col justify-between gap-4">
           <Badge className="w-fit">About Me</Badge>
           <Socials />
         </div>

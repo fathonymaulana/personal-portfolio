@@ -68,9 +68,9 @@ const Documentation: React.FC = () => {
         <p className="mb-4">
           To run this project on your local environment, follow these steps:
         </p>
-        <div className="font-light text-sm mb-10">
+        <div className="font-light text-xs md:text-sm mb-10">
           <CodeBlock
-            code={`git clone https://github.com/fathonymaulana/personal-portfolio.git\ncd personal-portfolio\nnpm install\nnpm run dev`}
+            code={`git clone https://github.com/\nfathonymaulana/personal-portfolio.git\n\ncd personal-portfolio\nnpm install\nnpm run dev`}
           />
         </div>
 
@@ -80,12 +80,12 @@ const Documentation: React.FC = () => {
         <p className="mb-4">
           Here are some basic commands you can use to manage this project:
         </p>
-        <div className="font-light text-sm mb-10">
+        <div className="font-light text-xs md:text-sm mb-10">
           <CodeBlock
             code={`npm run dev    # Run the project in development mode\nnpm run build  # Build the project for production\nnpm start      # Run the project in production mode`}
           />
         </div>
-        <p className="mb-10 text-sm text-muted-foreground rounded-lg border bg-card shadow p-8">
+        <p className="mb-10 text-xs text-muted-foreground rounded-lg border bg-card shadow p-8">
           <span className="font-semibold text-foreground">Notes:</span> For more
           information on how to use shadcn/ui and TypeScript in this project,
           please refer to the official documentation of each.

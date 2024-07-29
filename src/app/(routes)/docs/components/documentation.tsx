@@ -82,7 +82,7 @@ const Documentation: React.FC = () => {
         </p>
         <div className="font-light text-xs md:text-sm mb-10">
           <CodeBlock
-            code={`npm run dev    # Run the project in development mode\nnpm run build  # Build the project for production\nnpm start      # Run the project in production mode`}
+            code={`npm run dev\nnpm run build\nnpm start`}
           />
         </div>
         <p className="mb-10 text-xs text-muted-foreground rounded-lg border bg-card shadow p-8">

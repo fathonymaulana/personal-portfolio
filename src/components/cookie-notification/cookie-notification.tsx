@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { Button } from "../ui/button";
 import Container from "../ui/container";
+import Link from "next/link";
 
 const CookieNotification: React.FC = () => {
   const [isVisible, setIsVisible] = useState<boolean>(true);
@@ -24,9 +25,9 @@ const CookieNotification: React.FC = () => {
           <span className="text-background text-xs md:text-sm">
             We use cookies to improve your experience. By continuing to browse
             the site you are agreeing to our{" "}
-            <a href="/privacy-policy" className="underline">
+            <Link href="/privacy-policy" target="_blank" className="underline-offset-4 group-hover:underline font-semibold">
               Privacy Policy
-            </a>
+            </Link>
             .
           </span>
           <Button variant="secondary" onClick={handleAccept} className="ml-4">

@@ -78,7 +78,9 @@ const Hamburger = () => {
           <SheetContent side={side}>
             <SheetHeader>
               <SheetTitle>
-                <Logo />
+                <div onClick={handleLinkClick}>
+                  <Logo />
+                </div>
               </SheetTitle>
             </SheetHeader>
             <div className="relative my-4 h-[calc(100vh-8rem)] pb-10 pl-6 overflow-auto">

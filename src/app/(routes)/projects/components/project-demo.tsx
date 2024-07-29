@@ -25,11 +25,11 @@ const ProjectDemo = () => {
         </Link>
         <div className="flex flex-col justify-between space-y-4 p-8">
           <div className="space-y-4">
-            <div className="flex items-center justify-between">
+            <div className="flex flex-col md:flex-row items-start md:items-center justify-between">
               <h1 className="text-2xl font-semibold tracking-tight flex items-center gap-1">
                 Nakama Preorder
               </h1>
-              <span className="text-sm text-muted-foreground">
+              <span className="text-xs md:text-sm text-muted-foreground">
                 Release Year: 2023
               </span>
             </div>
@@ -42,7 +42,7 @@ const ProjectDemo = () => {
               <Badge variant="secondary">E-Commerce</Badge>
             </div>
           </div>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 pt-8">
             <Link
               href="https://nakama-preorder.vercel.app"
               target="_blank"

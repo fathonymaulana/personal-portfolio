@@ -74,13 +74,10 @@ const Footer = () => {
             <div className="flex flex-col gap-6 max-w-full sm:w-[336px]">
               <p>License</p>
               <p className="text-foreground">
-                Licensed under the
-                <button
-                  id="mit-button"
-                  className="px-1 text-foreground font-semibold underline"
-                >
+                Licensed under the{" "}
+                <Link href="/mit" target="_blank" className="font-semibold hover:opacity-80 transition">
                   MIT
-                </button>
+                </Link>{" "}
                 License.
               </p>
             </div>

@@ -12,6 +12,7 @@ import {
   InstagramLogoIcon,
   LinkedInLogoIcon,
 } from "@radix-ui/react-icons";
+import { FaUpwork } from "react-icons/fa6";
 import Link from "next/link";
 import React from "react";
 
@@ -64,6 +65,12 @@ const Socials: React.FC = () => {
           icon={<LinkedInLogoIcon width={18} height={18} />}
           label="LinkedIn"
         />
+        <SocialLink
+          href="https://www.upwork.com/freelancers/~0165181e435c664a96"
+          icon={<FaUpwork  width={18} height={18} />}
+          label="Upwork"
+        />
+        
       </div>
     </div>
   );

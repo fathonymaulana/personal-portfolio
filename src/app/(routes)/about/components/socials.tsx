@@ -56,7 +56,7 @@ const Socials: React.FC = () => {
           label="Github"
         />
         <SocialLink
-          href="https://Discordapp.com/users/368839388353921024"
+          href="https://discord.com/users/368839388353921024"
           icon={<DiscordLogoIcon width={18} height={18} />}
           label="Discord"
         />

@@ -42,7 +42,7 @@ const SocialLink: React.FC<SocialLinkProps> = ({ href, icon, label }) => (
 const Socials: React.FC = () => {
   return (
     <div className="flex items-center gap-4">
-      <h1>SOCIAL LINKS</h1>
+      <h1 className="text-xs text-muted-foreground">Social links:</h1>
       <Separator orientation="vertical" />
       <div className="flex items-center">
         <SocialLink
@@ -56,7 +56,7 @@ const Socials: React.FC = () => {
           label="Github"
         />
         <SocialLink
-          href="Discordapp.com/users/368839388353921024"
+          href="https://Discordapp.com/users/368839388353921024"
           icon={<DiscordLogoIcon width={18} height={18} />}
           label="Discord"
         />

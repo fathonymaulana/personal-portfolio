@@ -9,8 +9,8 @@ import { motion, AnimatePresence } from "motion/react";
 
 const defaultNavItems = [
   { name: "Work", id: "work" },
-  { name: "Experience", id: "experience" },
   { name: "About", id: "about" },
+  { name: "Experience", id: "experience" },
 ];
 
 const defaultSections = [
@@ -39,7 +39,7 @@ const FloatingNav: React.FC = () => {
         const elA = document.getElementById(a.id);
         const elB = document.getElementById(b.id);
         if (!elA || !elB) return 0;
-        return elA.offsetTop - elB.offsetTop;
+        return (elA.getBoundingClientRect().top + window.scrollY) - (elB.getBoundingClientRect().top + window.scrollY);
       });
       setDynamicNavItems(sortedNav);
 
@@ -48,7 +48,7 @@ const FloatingNav: React.FC = () => {
         const elA = document.getElementById(a);
         const elB = document.getElementById(b);
         if (!elA || !elB) return 0;
-        return elA.offsetTop - elB.offsetTop;
+        return (elA.getBoundingClientRect().top + window.scrollY) - (elB.getBoundingClientRect().top + window.scrollY);
       });
       sectionsRef.current = sortedSections;
     };
